@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Product from "../components/Product";
 import ColorOption from "../components/ColorOption";
 
-import { data } from '../data';
+import { data } from '../Data';
 
 export default function Homepage() {
   const [products, setProducts] = useState([...data]);
